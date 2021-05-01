@@ -3,22 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "axios": "^0.21.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
+    "styled-components": "^5.2.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,8 +37,18 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/customize-cra": "^1.0.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "customize-cra": "^1.0.0",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-prettier-standard": "^4.0.1",
@@ -53,6 +59,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.23.2",
     "prettier": "2.2.1",
-    "prettier-config-standard": "^4.0.0"
+    "prettier-config-standard": "^4.0.0",
+    "react-app-rewired": "^2.1.8",
+    "typescript": "^4.1.2"
   }
 }
