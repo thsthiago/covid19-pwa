@@ -1,9 +1,5 @@
 import styled from 'styled-components'
-import { Typography, CardContent as CardContentStyled, Card } from 'components'
-
-export const CardUi = styled(Card)`
-  background: #292929;
-`
+import { Typography, CardContent as CardContentStyled } from 'components'
 
 export const Label = styled(Typography)`
   font-weight: 500;
@@ -16,17 +12,4 @@ export const Value = styled(Typography)`
 
 export const CardContent = styled(CardContentStyled)`
   border-left: 8px solid ${({ color }) => color || '#5d78ff'};
-  color: #fff;
-`
-
-export const CardPanelContent = styled(CardContentStyled)`
-  display: flex;
-  justify-content: space-between;
-  padding: 25px;
-`
-
-export const Item = styled.div`
-  display: flex;
-  justify-content: space-between;
-  min-height: 150px;
 `

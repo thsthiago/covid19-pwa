@@ -17,9 +17,6 @@ interface BoardData {
 function Board({ data }: BoardData) {
   const { cases, deaths, recovered, todayCases, todayDeaths } = data
 
-  console.log(todayCases)
-  console.log(todayDeaths)
-
   const getValue = (value: number) => {
     return value >= 0 ? (
       value
@@ -43,7 +40,7 @@ function Board({ data }: BoardData) {
       </Grid>
 
       <Grid item xs={12} md={3}>
-        <Card label="Casos hoje" color="#2c2c2c" value={getValue(todayCases)} />
+        <Card label="Casos hoje" color="#1b1b1b" value={getValue(todayCases)} />
       </Grid>
 
       <Grid item xs={12} md={3}>

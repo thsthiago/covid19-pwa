@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
-import { Label, Value, CardContent, CardUi } from './style'
+import { Label, Value, CardContent } from './style'
+import { Card as CardUi } from 'components'
 
 interface CardData {
   color: string
